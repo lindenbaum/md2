@@ -73,7 +73,13 @@
 
 %%------------------------------------------------------------------------------
 %% @doc
-%% TODO
+%% Produces a binary representing the hash value for an input binary.
+%% A string representation of the hash can be retrieved using:
+%% <code>
+%% lists:flatten(
+%%    [io_lib:format("~2.16.0b", [XI])
+%%     || XI &lt;- binary_to_list(Hash)]).
+%% </code>
 %% @end
 %%------------------------------------------------------------------------------
 -spec hash(binary()) ->
