@@ -17,5 +17,5 @@ Building
 The project is built using [rebar](https://github.com/basho/rebar).
 
 To disable compilation and usage of the NIF based implementation (e.g.
-for systems without OpenSSL) just remove the `rebar.config` file and
-recompile.
+for systems without OpenSSL) just remove the `port_specs` and `port_env`
+configuration in the `rebar.config` file.
