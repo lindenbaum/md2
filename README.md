@@ -20,7 +20,12 @@ To disable compilation and usage of the NIF based implementation (e.g.
 for systems without OpenSSL) just remove the `port_specs` and `port_env`
 configuration in the `rebar.config` file.
 
-To use this project as a dependency, just add the following to the `deps'
-section of your `rebar.config':
+To use this project as a dependency, just add the following to the `deps`
+section of your `rebar.config`:
 
-`{md2, "1.0.0", {git, "https://github.com/lindenbaum/md2.git", {tag, md2-1.0.0}}}'
+`{md2, "1.0.0", {git, "https://github.com/lindenbaum/md2.git", {tag, md2-1.0.0}}}`
+
+Usage
+-----
+
+To compute the MD2 digest of a binary call `md2:hash(Binary)`.
