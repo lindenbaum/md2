@@ -1,7 +1,7 @@
 {application, md2,
   [{description, "An implementation of MD2 according to RFC1319."},
    {id, "eu.lindenbaum"},
-   {vsn, "1.0.0"},
+   {vsn, "1.1.0"},
    {registered, []},
    {applications, [kernel, stdlib]},
    {env, []}]}.
