@@ -3,5 +3,5 @@
    {id, "eu.lindenbaum"},
    {vsn, "1.0.0"},
    {registered, []},
-   {applications, [kernel, stdlib, sasl]},
+   {applications, [kernel, stdlib]},
    {env, []}]}.
