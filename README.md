@@ -23,7 +23,7 @@ configuration in the `rebar.config` file.
 To use this project as a dependency, just add the following to the `deps`
 section of your `rebar.config`:
 
-`{md2, "1.0.0", {git, "https://github.com/lindenbaum/md2.git", {tag, "md2-1.0.0"}}}`
+`{md2, "1.0.1", {git, "https://github.com/lindenbaum/md2.git", {tag, "1.0.1"}}}`
 
 Usage
 -----
