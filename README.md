@@ -14,7 +14,9 @@ loaded the erlang implementation (slower) will be used.
 Building
 --------
 
-The project is built using [rebar](https://github.com/basho/rebar).
+The project is built using [rebar](https://github.com/basho/rebar). There's also
+a [Travis CI](https://travis-ci.org) build for it, current status:
+[![Build Status](https://travis-ci.org/lindenbaum/md2.png?branch=master)](https://travis-ci.org/lindenbaum/md2)
 
 To use this project as a dependency, just add the following to the `deps`
 section of your `rebar.config`:
