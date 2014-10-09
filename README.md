@@ -1,6 +1,7 @@
+[![Build Status](https://travis-ci.org/lindenbaum/md2.png?branch=master)](https://travis-ci.org/lindenbaum/md2)
+
 md2
 ===
-[![Build Status](https://travis-ci.org/lindenbaum/md2.png?branch=master)](https://travis-ci.org/lindenbaum/md2)
 
 An Erlang implementation of the MD2 algorithm according to RFC 1319.
 
