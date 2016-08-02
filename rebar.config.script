@@ -14,7 +14,27 @@
 %%% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 %%%=============================================================================
 
-{port_specs,
- [
-  {"(linux|unix|darwin)", "priv/md2.so", ["c_src/*.c"]}
- ]}.
+Hooks =
+[
+ {provider_hooks,
+  [
+   {pre,
+    [
+     {compile, {pc, compile}},
+     {clean, {pc, clean}}
+    ]}
+  ]}
+].
+
+Plugins =
+[
+ {plugins,
+  [
+   pc
+  ]}
+].
+
+case erlang:function_exported(rebar3, main, 1) of
+    true  -> Plugins ++ Hooks ++ CONFIG;
+    false -> CONFIG
+end.

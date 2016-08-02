@@ -1,8 +1,11 @@
+*.beam
+*.d
+*.o
+*.plt
 .eunit
-ebin
+.rebar
+_build
 deps
 doc
+ebin
 priv
-*.o
-*.beam
-*.plt
