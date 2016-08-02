@@ -14,9 +14,13 @@
 %%% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 %%%=============================================================================
 {application, md2,
-  [{description, "An implementation of MD2 according to RFC1319."},
-   {id, "eu.lindenbaum"},
-   {vsn, "1.1.1"},
-   {registered, []},
-   {applications, [kernel, stdlib]},
-   {env, []}]}.
+ [
+  {description, "An implementation of MD2 according to RFC1319."},
+  {vsn, "1.1.1"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {maintainers,, ["Tobias Schlager", "Sven Heyll", "Timo Koepke"]},
+  {licenses, ["MIT"]},
+  {links, [{"Github", "https://github.com/lindenbaum/md2"}]}
+ ]}.
