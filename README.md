@@ -20,8 +20,10 @@ The project is built using [rebar](https://github.com/basho/rebar).
 
 To use this project as a dependency, just add the following to the `deps`
 section of your `rebar.config`:
-
-`{md2, "1.1.0", {git, "https://github.com/lindenbaum/md2.git", {tag, "1.1.0"}}}`
+```erlang
+{md2, "1.1.1", {git, "https://github.com/lindenbaum/md2.git", {tag, "1.1.1"}}}
+```
+or if your project uses `rebar3`, get it directly from [https://hex.pm](hex.pm).
 
 Usage
 -----
