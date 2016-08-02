@@ -20,7 +20,7 @@
   {registered, []},
   {applications, [kernel, stdlib]},
   {env, []},
-  {maintainers,, ["Tobias Schlager", "Sven Heyll", "Timo Koepke"]},
+  {maintainers, ["Tobias Schlager", "Sven Heyll", "Timo Koepke"]},
   {licenses, ["MIT"]},
   {links, [{"Github", "https://github.com/lindenbaum/md2"}]}
  ]}.
