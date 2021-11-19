@@ -5,13 +5,12 @@ on:
   pull_request:
   workflow_dispatch:
 
-strategy:
-  matrix:
-    otp: [21, 22, 23, 24]
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        otp: [21, 22, 23, 24]
     container:
       image: erlang:${{ matrix.otp }}
     steps:
